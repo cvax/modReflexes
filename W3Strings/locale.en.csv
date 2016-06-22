@@ -1,0 +1,60 @@
+;meta[language=en]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+; Options > Mods > Reflex Blast main menu
+;
+2110956000|        |panel_Mods|Mods
+2110956001|        |panel_reflexes|Reflexes
+2110956002|        |panel_reflex_blast|Reflex Blast
+2110956003|        |preset_Mods_reflexes_reflex_blast|Reflex Blast (Aard Skill) presets
+2110956004|        |preset_Mods_reflex_blast|Reflex Blast (Aard Skill) presets
+2110956005|        |preset_value_reflex_blast_preset01|Balanced
+2110956006|        |preset_value_reflex_blast_preset02|Strong
+2110956007|        |rb_adrenCost|Adrenaline Cost
+2110956008|        |rb_stamCost|Stamina Cost %
+2110956009|        |rb_aardExplosionMode|Aard Explosion Mode
+2110956010|        |rb_aardExplosionMode_Option1|Slow
+2110956011|        |rb_aardExplosionMode_Option2|Fast
+2110956012|        |rb_sloMoSpeed|World Slowed To %
+2110956013|        |rb_sloMoDuration|World Slow Duration (secs)
+2110956014|        |rb_spdMultiplier|Geralt Speed Boost %
+2110956015|        |rb_dmgMultiplier|Geralt Base Damage %
+2110956016|        |rb_lvl2Boost|Skill Level 2 Damage Boost %
+2110956017|        |rb_canFreeze|Freezes Enemies
+2110956018|        |rb_enabled|---=== ENABLE ===--- <u>Reloading of save file required.<u>
+2110956019|        |rb_enabled_Option1|Off
+2110956020|        |rb_enabled_Option2|On
+2110956021|        |rb_enabled_Option3|Uninstall
+;
+; Options > Mods > Witcher Reflex main menu
+;
+2110956050|        |panel_witcher_reflex|Witcher Reflex
+2110956051|        |preset_Mods_witcher_reflex|Witcher Reflex (Faster Atk/Dodge) presets
+2110956052|        |preset_Mods_reflexes_witcher_reflex|Witcher Reflex (Faster Atk/Dodge) presets
+2110956053|        |preset_value_witcher_reflex_preset01|Boost on Skills
+2110956054|        |preset_value_witcher_reflex_preset02|No Skills Required
+2110956055|        |wr_stackSkillLevels|Speed Boost Per Skill Level --- <u>If off, no skills required for boost<u>
+2110956056|        |wr_maxBoostCap|Remove Max Boost Cap &#40;150%&#41; --- <u>Experimental<u>
+2110956057|        |wr_fastAtkSpdMultiplier|Fast Attack Speed Boost % &#40;Skill: Muscle Memory&#41;
+2110956058|        |wr_strongAtkSpdMultiplier|Strong Attack Speed Boost % &#40;Skill: Strength Training&#41;
+2110956059|        |wr_dodgeSpdMultiplier|Dodge Speed Boost % &#40;Skill: Fleet Footed&#41;
+2110956060|        |wr_rollSpdMultiplier|Roll Speed Boost % &#40;Skill: Fleet Footed&#41;
+2110956061|        |wr_whirlDrain|Whirl Stamina Drain Matches Speed Boost
+2110956062|        |wr_whirlAtkSpdMultiplier|Whirl Attack Speed Boost % &#40;Skill: Whirl&#41;
+2110956063|        |wr_enabled|---=== ENABLE ===---
+;
+; Skill Name/Descriptions/Notifications
+;
+2110956030|        |skill_name_reflex_blast|Reflex Blast
+2110956031|        |skill_desc_prev_reflex_blast|Requires Aard Sweep and consumes 2 Adrenaline Points. Enhances Geralt's reflex speeds at the expense of Aard Sweep's knockdown power.
+2110956032|        |skill_desc_reflex_blast|Requires Aard Sweep and consumes 2 Adrenaline Points. Enhances Geralt's reflex speeds at the expense of Aard Sweep's knockdown power.
+2110956033|        |skill_desc_reflex_blast_2|Requires Aard Sweep and consumes 2 Adrenaline Points. Enhances Geralt's reflex speeds at the expense of Aard Sweep's knockdown power. Increases damage by +5%.
+2110956034|        |skill_desc_reflex_blast_3|
+2110956035|        |reflex_blast_install|Reflex Blast installed. Find it in the Character menu under the Aard Sign skills.
+2110956036|        |reflex_blast_disable|Reflex Blast disabled. Any skill points used on it has been refunded. If you intend to delete this mod completely, please use the UNINSTALL mode in options.
+2110956037|        |reflex_blast_uninstall|Reflex Blast uninstalled. Any skill points used on it has been refunded. Please save, quit Witcher, then delete the mod before continuing.
+2110956038|        |reflex_blast_noaction|Reflex Blast DEBUG: No Action Taken
+2110956039|        |reflex_blast_repair|Reflex Blast repaired. Find it in the Character menu under the Aard Sign skills.
