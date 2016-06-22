@@ -7,6 +7,14 @@ Witcher 3 mod for new Aard skill. Includes my modReflexBlast and modWitcherRefle
 [Reflex Blast Demo Reel](https://youtu.be/A3YcyHFbWn4)  
 [Witcher Reflex Demo Reel](https://youtu.be/0P2KhI6Vdc4)
 
+# Roadmap
+This mod has a Trello board to keep track of my ideas. You can view, comment on, and vote for features you want to see implemented into this mod.  
+
+[Trello Board](https://trello.com/b/PTzbfb1s/modreflexes)
+
+# Git Branches
+The [master](https://github.com/cvax/modreflexes/tree/master) branch will have the most cutting edge [live changes](https://github.com/cvax/modreflexes/commits/master). This may be buggy and might not even compile. If you want a more stable branch, use one of the version numbered milestone branches.
+
 # Packing / Building the Mod
 You will first need these build tools to completely build this mod.
 
@@ -38,7 +46,7 @@ modReflexes automatically adds the Reflex Blast skill to your skill tree as you 
 4. Activate the skill (requires Aard Sweep activated as well)  
 5. When in combat, by default, you can expend 2 adrenaline points  
 
-# Changelog
+# Change Log
 v1.40
 - Fixed bug with Reflex Blast preventing slo-mo triggering other sources
 - Fixed enable/disable for Reflex Blast
