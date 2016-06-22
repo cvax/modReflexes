@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+    <Group id="ReflexBlast" displayName="Mods.reflexes.reflex_blast">
+		<PresetsArray>
+			<Preset id="0" displayName="reflex_blast_preset01" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="refBlastEnabled"				value="1"	/>
+				<Entry varId="adrenCost"					value="2"	/>
+				<Entry varId="stamCost"						value="60"	/>
+				<Entry varId="aardExplosionMode"			value="1"	/>
+				<Entry varId="sloMoSpeed"					value="30"	/>
+				<Entry varId="sloMoDuration"				value="3"	/>
+				<Entry varId="spdMultiplier"				value="75"	/>
+				<Entry varId="dmgMultiplier"				value="15"	/>
+				<Entry varId="lvl2Boost"					value="5"	/>
+				<Entry varId="canFreeze"					value="0"	/>
+			</Preset>
+			<Preset id="1" displayName="reflex_blast_preset02" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="refBlastEnabled"				value="1"	/>
+				<Entry varId="adrenCost"					value="0"	/>
+				<Entry varId="stamCost"						value="60"	/>
+				<Entry varId="aardExplosionMode"			value="1"	/>
+				<Entry varId="sloMoSpeed"					value="10"	/>
+				<Entry varId="sloMoDuration"				value="3"	/>
+				<Entry varId="spdMultiplier"				value="100"	/>
+				<Entry varId="dmgMultiplier"				value="20"	/>
+				<Entry varId="lvl2Boost"					value="10"	/>
+				<Entry varId="canFreeze"					value="1"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+			<Var id="refBlastEnabled" displayName="rb_enabled" displayType="OPTIONS" tags="customNames;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="rb_enabled_Option1">
+						<Entry varId="refBlastEnabled" value="0"/>
+					</Option>
+					<Option id="1" displayName="rb_enabled_Option2">
+						<Entry varId="refBlastEnabled" value="1"/>
+					</Option>
+					<Option id="2" displayName="rb_enabled_Option3">
+						<Entry varId="refBlastEnabled" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			
+			<Var id="adrenCost" displayName="rb_adrenCost" displayType="SLIDER;0;3;3" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="stamCost" displayName="rb_stamCost" displayType="SLIDER;0;100;100" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="aardExplosionMode" displayName="rb_aardExplosionMode" displayType="OPTIONS" tags="customNames;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="rb_aardExplosionMode_Option1">
+						<Entry varId="aardExplosionMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="rb_aardExplosionMode_Option2">
+						<Entry varId="aardExplosionMode" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			
+			<Var id="sloMoSpeed" displayName="rb_sloMoSpeed" displayType="SLIDER;0;100;100" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="sloMoDuration" displayName="rb_sloMoDuration" displayType="SLIDER;0;10;10" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="spdMultiplier" displayName="rb_spdMultiplier" displayType="SLIDER;-100;500;600" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="dmgMultiplier" displayName="rb_dmgMultiplier" displayType="SLIDER;-100;500;600" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="lvl2Boost" displayName="rb_lvl2Boost" displayType="SLIDER;-100;500;600" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="canFreeze" displayName="rb_canFreeze" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+	
+	<Group id="WitcherReflex" displayName="Mods.reflexes.witcher_reflex">
+		<PresetsArray>
+			<Preset id="0" displayName="witcher_reflex_preset01" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="witRefEnabled"				value="1"	/>
+				<Entry varId="stackSkillLevels"				value="1"	/>
+				<Entry varId="maxBoostCap"					value="0"	/>
+				<Entry varId="fastAtkSpdMultiplier"			value="10"	/>
+				<Entry varId="strongAtkSpdMultiplier"		value="10"	/>
+				<Entry varId="dodgeSpdMultiplier"			value="10"	/>
+				<Entry varId="rollSpdMultiplier"			value="10"	/>
+				<Entry varId="whirlAtkSpdMultiplier"		value="10"	/>
+				<Entry varId="whirlDrain"					value="1"	/>
+			</Preset>
+			<Preset id="1" displayName="witcher_reflex_preset02" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="witRefEnabled"				value="1"	/>
+				<Entry varId="stackSkillLevels"				value="0"	/>
+				<Entry varId="maxBoostCap"					value="1"	/>
+				<Entry varId="fastAtkSpdMultiplier"			value="50"	/>
+				<Entry varId="strongAtkSpdMultiplier"		value="50"	/>
+				<Entry varId="dodgeSpdMultiplier"			value="50"	/>
+				<Entry varId="rollSpdMultiplier"			value="50"	/>
+				<Entry varId="whirlAtkSpdMultiplier"		value="50"	/>
+				<Entry varId="whirlDrain"					value="1"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+			<Var id="witRefEnabled" displayName="wr_enabled" displayType="TOGGLE"	tags="customNames;nonLocalized;customDisplayName"/>	
+			
+			<Var id="stackSkillLevels" displayName="wr_stackSkillLevels" displayType="TOGGLE"	tags="customNames;nonLocalized;customDisplayName"/>	
+		
+			<Var id="maxBoostCap" displayName="wr_maxBoostCap" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+		
+			<Var id="fastAtkSpdMultiplier" displayName="wr_fastAtkSpdMultiplier" displayType="SLIDER;-100;500;600" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="strongAtkSpdMultiplier" displayName="wr_strongAtkSpdMultiplier" displayType="SLIDER;-100;500;600" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="dodgeSpdMultiplier" displayName="wr_dodgeSpdMultiplier" displayType="SLIDER;-100;500;600" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="rollSpdMultiplier" displayName="wr_rollSpdMultiplier" displayType="SLIDER;-100;500;600" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="whirlAtkSpdMultiplier" displayName="wr_whirlAtkSpdMultiplier" displayType="SLIDER;-100;500;600" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="whirlDrain" displayName="wr_whirlDrain" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+</UserConfig>
