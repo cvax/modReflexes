@@ -1,0 +1,60 @@
+;meta[language=fr]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+; Options > Mods > Reflex Blast main menu
+;
+2110956000|        |panel_Mods|Mods
+2110956001|        |panel_reflexes|Reflexes
+2110956002|        |panel_reflex_blast|Reflex Blast
+2110956003|        |preset_Mods_reflexes_reflex_blast|Reflexes Blast (Signe d'Aard) presets
+2110956004|        |preset_Mods_reflex_blast|Reflex Blast (Signe d'Aard) presets
+2110956005|        |preset_value_reflex_blast_preset01|Equilibré
+2110956006|        |preset_value_reflex_blast_preset02|Puissant
+2110956007|        |rb_adrenCost|Coût de L’adrenaline
+2110956008|        |rb_stamCost|Coût de L’adrenaline %
+2110956009|        |rb_aardExplosionMode|Aard Mode Explosion
+2110956010|        |rb_aardExplosionMode_Option1|Lent
+2110956011|        |rb_aardExplosionMode_Option2|Rapide
+2110956012|        |rb_sloMoSpeed|World Slowed To %
+2110956013|        |rb_sloMoDuration|Durée du Ralentissement  (secs)
+2110956014|        |rb_spdMultiplier|Augmenter la rapidité de Geralt %
+2110956015|        |rb_dmgMultiplier|Dommage de base %
+2110956016|        |rb_lvl2Boost|Signe Niveau 2  Augmenter Dommage %
+2110956017|        |rb_canFreeze|Geler les ennemis
+2110956018|        |rb_enabled|---===  ACTIVE ===--- <u>Rechargement de sauvegarde requis.<u>
+2110956019|        |rb_enabled_Option1|Désactivé
+2110956020|        |rb_enabled_Option2|Activé
+2110956021|        |rb_enabled_Option3|Desinstaller
+;
+; Options > Mods > Witcher Reflex menu principal
+;
+2110956050|        |panel_witcher_reflex|Witcher Reflex
+2110956051|        |preset_Mods_witcher_reflex|Witcher Reflex (Attaque rap/esquive) presets
+2110956052|        |preset_Mods_reflexes_witcher_reflex|Witcher Reflexes (Attaque rap/esquive) presets
+2110956053|        |preset_value_witcher_reflex_preset01|Progressif (Expérience)
+2110956054|        |preset_value_witcher_reflex_preset02|Non Progressif (Expérience)
+2110956055|        |wr_stackSkillLevels|Amelioration de la vitesse par rapport au niveau --- <u>SI désactivé, débloqué pour n importe quel niveau<u>
+2110956056|        |wr_maxBoostCap|Enlever la limite de boost &#40;150%&#41; --- <u>Expérimental<u>
+2110956057|        |wr_fastAtkSpdMultiplier|Attaque rapide vitesse  % &#40;compétence: mémoire musculaire&#41;
+2110956058|        |wr_strongAtkSpdMultiplier|Attaque Puissante vitesse % &#40;compétence: renforcement musculaire&#41;
+2110956059|        |wr_dodgeSpdMultiplier|Esquive Speed vitesse % &#40;compétence: vivacité&#41;
+2110956060|        |wr_rollSpdMultiplier|Roulade  Speed vitesse % &#40;compétence: vivacité&#41;
+2110956061|        |wr_whirlDrain|consomation de vigueur tourbillon
+2110956062|        |wr_whirlAtkSpdMultiplier|Tourbillon vitesse % &#40;compétence: tourbillon&#41;
+2110956063|        |wr_enabled|---=== ACTIVE ===---
+;
+; Compétences/Descriptions/Notifications
+;
+2110956030|        |skill_name_reflex_blast|Reflex Blast
+2110956031|        |skill_desc_prev_reflex_blast|Nécessite Aard étendu et consomme 2 Points d'Adrénaline. Améliore la vitesse des réflexes de Geralt quand Aard étendu est activé.
+2110956032|        |skill_desc_reflex_blast|Nécessite Aard étendu et consomme 2 Points d'Adrénaline. Améliore la vitesse des réflexes de Geralt quand Aard étendu est activé.
+2110956033|        |skill_desc_reflex_blast_2|Nécessite  Aard étendu et consomme 2 Points d'Adrénaline. Améliore la vitesse des réflexes de Geralt quand Aard étendu est activé. augmente les dégâts de +5%.
+2110956034|        |skill_desc_reflex_blast_3|
+2110956035|        |reflex_blast_install|Reflex Blast  Installé. Trouvez-le dans le menu du personnage sous les  compétences de signe Aard.
+2110956036|        |reflex_blast_disable|Reflex Blast disabled. Any skill points used on it has been refunded. If you intend to delete this mod completely, SVP, Utilisé la fonction DESINSTALLER dans les  options.
+2110956037|        |reflex_blast_uninstall|Reflex Blast désinstallé.  Tous les points de compétence utilisés ont été réattribué. SVP, Faite une sauvegarde, quitter Witcher, ensuite effacer le mod avant de recharger la partie.
+2110956038|        |reflex_blast_noaction|Reflex Blast DEBUG: Pas d'action requise.
+2110956039|        |reflex_blast_repair|Reflex Blast a été réparé. Trouvez-le dans le menu du personnage sous les  compétences de signe Aard.
