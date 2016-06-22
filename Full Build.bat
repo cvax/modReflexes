@@ -10,10 +10,12 @@ call wcc_lite cook -platform=pc -mod="%MODDED%" -basedir="%WITCHERBASEDIR%" -out
 call wcc_lite buildcache textures -basedir="%MODDED%" -platform=pc -db="%COOKED%\cook.db" -out="%PACKED%\texture.cache"
 call wcc_lite pack -dir="%MODDED%" -outdir="%PACKED%"
 call wcc_lite metadatastore -path="%PACKED%"
+echo.
 echo Success. Bundles packaged.
 
 
-
+echo.
+echo.
 echo Encoding localization w3strings.........
 cd /d "%W3STRINGSENCODER%"
 call w3strings --encode %STRINGS%\locale.en.csv --id-space %W3STRINGSIDSPACE%
@@ -38,19 +40,38 @@ copy %STRINGS%\en.w3strings %PACKED%\pl.w3strings
 copy %STRINGS%\en.w3strings %PACKED%\ru.w3strings
 copy %STRINGS%\en.w3strings %PACKED%\zh.w3strings
 del %STRINGS%\en.w3strings
-echo W3Strings generation success.
+echo.
+echo Success. W3Strings packaged.
 
 
-
+echo.
+echo.
 echo Bundling scripts.........
 XCOPY "%SCRIPTS%" "%PACKEDSCRIPTS%" /S/Y
-echo Success.
+echo.
+echo Success. Scripts packaged.
 
 
 
-
-echo Copy files from %COMPILED% to your Witcher3 Mods directory?
-pause
-
+echo.
+echo.
+:choice
+set /P c="Install %NAME% to Witcher 3? (Y/N)"
+if /I "%c%" EQU "Y" goto :movespot
+if /I "%c%" EQU "N" goto :exitspot
+goto :choice
+:movespot
 if not exist %GAMEPATH%\Mods\%NAME% mkdir %GAMEPATH%\Mods\%NAME%
 XCOPY "%COMPILED%" "%GAMEPATH%\Mods" /S/Y
+echo.
+echo.
+echo %NAME% successfully installed to Witcher 3.
+echo Remember to use Script Merger if you have other mods installed.
+pause 
+exit
+:exitspot
+echo.
+echo.
+echo %NAME% generated successfully.
+pause 
+exit
