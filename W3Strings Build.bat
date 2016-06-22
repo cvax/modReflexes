@@ -34,7 +34,29 @@ copy %STRINGS%\en.w3strings %PACKED%\zh.w3strings
 del %STRINGS%\en.w3strings
 del %STRINGS%\fr.w3strings
 
+echo.
+echo Success. W3Strings packaged.
 
-echo W3Strings generation success.
-XCOPY "%PACKED%" "%GAMEPATH%\Mods\%NAME%\content" /S/Y
-pause
+
+
+echo.
+echo.
+:choice
+set /P c="Install %NAME% W3strings to Witcher 3? (Y/N)"
+if /I "%c%" EQU "Y" goto :movespot
+if /I "%c%" EQU "N" goto :exitspot
+goto :choice
+:movespot
+if not exist %GAMEPATH%\Mods\%NAME%\content mkdir %GAMEPATH%\Mods\%NAME%\content
+XCOPY "%PACKED%\*.w3strings" "%GAMEPATH%\Mods\%NAME%\content" /S/Y
+echo.
+echo.
+echo %NAME% W3strings successfully installed to Witcher 3.
+pause 
+exit
+:exitspot
+echo.
+echo.
+echo %NAME% W3strings generated successfully.
+pause 
+exit
