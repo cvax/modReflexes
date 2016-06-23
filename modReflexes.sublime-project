@@ -6,7 +6,6 @@
 			[
 				".gitattributes",
 				".gitignore",
-				"README.md",
 				"modReflexes.sublime-project",
 				"modReflexes.sublime-workspace"
 			],
