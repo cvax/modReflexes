@@ -1,0 +1,60 @@
+;meta[language=pl]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+; Options > Mods > Reflex Blast main menu
+;
+2110956000|        |panel_Mods|Mods
+2110956001|        |panel_reflexes|Reflexes
+2110956002|        |panel_reflex_blast|Reflex Blast
+2110956003|        |preset_Mods_reflexes_reflex_blast|Reflex Blast (Znak Aard) - ustawienia
+2110956004|        |preset_Mods_reflex_blast|Reflex Blast (Znak Aard) - ustawienia
+2110956005|        |preset_value_reflex_blast_preset01|Zbalansowany
+2110956006|        |preset_value_reflex_blast_preset02|Silny
+2110956007|        |rb_adrenCost|Koszt punktów adrenaliny
+2110956008|        |rb_stamCost|Koszt wytrzymałości %
+2110956009|        |rb_aardExplosionMode|Tryb eksplozji Aard
+2110956010|        |rb_aardExplosionMode_Option1|Wolny
+2110956011|        |rb_aardExplosionMode_Option2|Szybki
+2110956012|        |rb_sloMoSpeed|Spowolnij świat do %
+2110956013|        |rb_sloMoDuration|Czas trwania spowolnienia (w sekundach)
+2110956014|        |rb_spdMultiplier|Szybkość Geralta %
+2110956015|        |rb_dmgMultiplier|Obrażenia Geralta %
+2110956016|        |rb_lvl2Boost|Poziom umiejętności 2 - zwiększenie szybkości %
+2110956017|        |rb_canFreeze|Zamraża przeciwników
+2110956018|        |rb_enabled|---=== WłĄCZ ===--- <u>Wymaga ponownego wczytania zapisu gry.<u>
+2110956019|        |rb_enabled_Option1|Wyłącz
+2110956020|        |rb_enabled_Option2|Włącz
+2110956021|        |rb_enabled_Option3|Odinstaluj
+;
+; Options > Mods > Witcher Reflex main menu
+;
+2110956050|        |panel_witcher_reflex|Witcher Reflex
+2110956051|        |preset_Mods_witcher_reflex|Witcher Reflex (atak/uniki) - ustawienia
+2110956052|        |preset_Mods_reflexes_witcher_reflex|Witcher Reflex (atak/uniki) - ustawienia
+2110956053|        |preset_value_witcher_reflex_preset01|Z umiejętnościami
+2110956054|        |preset_value_witcher_reflex_preset02|Niezależnie
+2110956055|        |wr_stackSkillLevels|Z umiejętnościami --- <u>Wyłączone nie wymaga umiejętności<u>
+2110956056|        |wr_maxBoostCap|Usuń limit przyśpieszenia &#40;150%&#41; --- <u>Eksperymentalne<u>
+2110956057|        |wr_fastAtkSpdMultiplier|Przyśpieszenie szybkiego ataku % &#40;Umiejętność: Pamięć Mięśniowa&#41;
+2110956058|        |wr_strongAtkSpdMultiplier|Przyśpieszenie silnego ataku % &#40;Umiejętność: Trening Siłowy&#41;
+2110956059|        |wr_dodgeSpdMultiplier|Przyśpieszenie uników % &#40;Umiejętność: Praca Nóg&#41;
+2110956060|        |wr_rollSpdMultiplier|Przyśpieszenie turlania % &#40;Umiejętność: Praca Nóg&#41;
+2110956061|        |wr_whirlDrain|Powiąż szybkość młynka ze zużyciem wytrzymałości
+2110956062|        |wr_whirlAtkSpdMultiplier|Przyśpieszenie młynka % &#40;Umiejętność: Młynek&#41;
+2110956063|        |wr_enabled|---=== Włączony ===---
+;
+; Skill Name/Descriptions/Notifications
+;
+2110956030|        |skill_name_reflex_blast|Podmuch Szybkości
+2110956031|        |skill_desc_prev_reflex_blast|Wymaga umiejętności Krąg Aard i zużywa 2 punkty adrenaliny. Zwiększa szybkość Geralta kosztem mocy Kręgu Aard.
+2110956032|        |skill_desc_reflex_blast|Wymaga umiejętności Krąg Aard i zużywa 2 punkty adrenaliny. Zwiększa szybkość Geralta kosztem mocy Kręgu Aard.
+2110956033|        |skill_desc_reflex_blast_2|Wymaga umiejętności Krąg Aard i zużywa 2 punkty adrenaliny. Zwiększa szybkość Geralta kosztem mocy Kręgu Aard. Zwiększa obrażenia o +5%.
+2110956034|        |skill_desc_reflex_blast_3|
+2110956035|        |reflex_blast_install|Podmuch Szybkości zainstalowany. Znajdziesz go w menu postaci w drzewku umiejętności znaku Aard.
+2110956036|        |reflex_blast_disable|Podmuch Szybkości wyłączony. Wszystkie wydane na niego punkty umiejętności zostały zwrócone. Jeśli chcesz całkowicie usunąć ten mod, użyj funkcji ODINSTALUJ w opcjach.
+2110956037|        |reflex_blast_uninstall|Podmuch Szybkości odinstalowany. Wszystkie wydane na niego punkty umiejętności zostały zwrócone. Zapisz grę i wyjdź z niej, następnie usuń mod przed kontynuowaniem.
+2110956038|        |reflex_blast_noaction|Reflex Blast DEBUG: No Action Taken
+2110956039|        |reflex_blast_repair|Podmuch Szybkości naprawiony. Znajdziesz go w menu postaci w drzewku umiejętności znaku Aard.
