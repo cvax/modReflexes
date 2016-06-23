@@ -44,4 +44,4 @@ modReflexes automatically adds the Reflex Blast skill to your skill tree as you 
 
 ## Wiki
 
-See the [Wiki](https://github.com/cvax/modReflexes/wiki) for more in-depth usage information as well as [developer resources](https://github.com/cvax/modReflexes/wiki/Developer-Resources).
+See the [Wiki](https://github.com/cvax/modReflexes/wiki) for more in-depth usage and [configuration](https://github.com/cvax/modReflexes/wiki/Preset-Options) information as well as [developer resources](https://github.com/cvax/modReflexes/wiki/Developer-Resources).
