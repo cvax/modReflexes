@@ -32,13 +32,20 @@ Become the ultimate speeded Witcher. Like the [Afro Samurai](https://github.com/
 
 modReflexes automatically adds the Reflex Blast skill to your skill tree as you load a save file. Witcher Reflex doesn't need to install anything to your skill tree and will be ready to go right away.  
 
-1. Copy modReflexes to ```<Witcher3 Install>\Mods```
-2. Copy modReflexes\bin to ```<Witcher3 Install>```
+1. Copy ```modReflexes``` to ```<Witcher3 Install>\Mods```
+2. Copy ```modReflexes\bin``` to ```<Witcher3 Install>```
 3. Load any save file  
-4. Open your Character page  
-5. Add skill points to Reflex Blast  
-6. Activate the skill (requires Aard Sweep activated as well)  
+4. Open your ```Character``` page  
+5. Add skill points to ```Reflex Blast```  
+6. Activate the skill (requires ```Aard Sweep``` activated as well)  
 7. When in combat, by default, you can expend 2 adrenaline points
+
+
+
+
+## Roadmap
+
+Please help drive the direction of this mod by voting and commenting over on the [Trello](https://trello.com/b/PTzbfb1s/modreflexes#) board where the roadmap for this mod is outlined.
 
 
 
