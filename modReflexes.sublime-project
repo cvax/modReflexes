@@ -11,11 +11,11 @@
 			],
 			"folder_exclude_patterns":
 			[
+				"Compiled",
 				".idea",
 				".meteor",
 				".vscode",
-				".git",
-				"Compiled"
+				".git"
 			],
 			"path": "."
 		}
