@@ -1,3 +1,9 @@
+v1.40.1
+- Improved merge compatiblity with modKNGULM
+- Fixed Witcher Reflex animation speeds colliding with other speed modifiers (e.g. Blizzard potion)
+- Added French localization (thanks alcask)
+- Added Polish localization (thanks Murzinio)
+
 v1.40
 - Fixed bug with Reflex Blast preventing slo-mo triggering other sources
 - Fixed enable/disable for Reflex Blast
