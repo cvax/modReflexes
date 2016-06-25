@@ -14,6 +14,9 @@ if /I "%c%" EQU "N" goto :exitspot
 goto :choice
 :movespot
 if not exist %GAMEPATH%\Mods\%NAME% mkdir %GAMEPATH%\Mods\%NAME%
+set folder="%GAMEPATH%\Mods\%NAME%\content\scripts"
+cd /d %folder%
+for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 XCOPY "%SCRIPTS%" "%GAMEPATH%\Mods\%NAME%" /S/Y
 echo.
 echo.
