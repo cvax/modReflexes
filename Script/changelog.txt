@@ -1,3 +1,6 @@
+v1.xx-dev
+- Improved checkreflexblast to be capable of forcing a fix attempt via console
+
 v1.40.1
 - Improved merge compatiblity with modKNGULM
 - Fixed Witcher Reflex animation speeds colliding with other speed modifiers (e.g. Blizzard potion)
