@@ -2,6 +2,9 @@
 call BuildVariables.cmd
 
 echo Bundling scripts.........
+set folder="%PACKEDSCRIPTS%\content\scripts"
+cd /d %folder%
+for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 XCOPY "%SCRIPTS%" "%PACKEDSCRIPTS%" /S/Y
 echo.
 echo.

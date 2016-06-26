@@ -3,6 +3,10 @@ call BuildVariables.cmd
 if not exist %COOKED% mkdir %COOKED%
 if not exist %PACKED% mkdir %PACKED%
 
+echo Clearing old files............
+set folder="%COMPILED%"
+cd /d %folder%
+for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 echo Creating Custom Icons.........
 echo Packaging bundles.............
 cd /d "%MODKITPATH%"
