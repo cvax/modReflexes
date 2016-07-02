@@ -1,5 +1,6 @@
 @echo off
 call BuildVariables.cmd
+if not exist %PACKEDSCRIPTS%\content\scripts mkdir %PACKEDSCRIPTS%\content\scripts
 
 echo Bundling scripts.........
 set folder="%PACKEDSCRIPTS%\content\scripts"

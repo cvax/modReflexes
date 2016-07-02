@@ -49,9 +49,9 @@
 ; Skill Name/Descriptions/Notifications
 ;
 2110956030|        |skill_name_reflex_blast|Reflex Blast
-2110956031|        |skill_desc_prev_reflex_blast|Requires Aard Sweep and consumes 2 Adrenaline Points. Enhances Geralt's reflex speeds at the expense of Aard Sweep's knockdown power.
-2110956032|        |skill_desc_reflex_blast|Requires Aard Sweep and consumes 2 Adrenaline Points. Enhances Geralt's reflex speeds at the expense of Aard Sweep's knockdown power.
-2110956033|        |skill_desc_reflex_blast_2|Requires Aard Sweep and consumes 2 Adrenaline Points. Enhances Geralt's reflex speeds at the expense of Aard Sweep's knockdown power. Increases damage by +5%.
+2110956031|        |skill_desc_prev_reflex_blast|Requires Aard Sweep and consumes $I$ Adrenaline Points. Enhances Geralt's reflex speeds at the expense of Aard Sweep's knockdown power.
+2110956032|        |skill_desc_reflex_blast|Requires Aard Sweep and consumes $I$ Adrenaline Points. Enhances Geralt's reflex speeds at the expense of Aard Sweep's knockdown power.
+2110956033|        |skill_desc_reflex_blast_2|Requires Aard Sweep and consumes $I$ Adrenaline Points. Enhances Geralt's reflex speeds at the expense of Aard Sweep's knockdown power. Increases damage by +$I$%.
 2110956034|        |skill_desc_reflex_blast_3|
 2110956035|        |reflex_blast_install|Reflex Blast installed. Find it in the Character menu under the Aard Sign skills.
 2110956036|        |reflex_blast_disable|Reflex Blast disabled. Any skill points used on it has been refunded. If you intend to delete this mod completely, please use the UNINSTALL mode in options.

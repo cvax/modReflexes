@@ -1,5 +1,6 @@
 @echo off
 call BuildVariables.cmd
+if not exist %PACKED% mkdir %PACKED%
 
 echo Encoding localization w3strings.........
 

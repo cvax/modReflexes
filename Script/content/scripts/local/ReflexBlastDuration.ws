@@ -6,13 +6,7 @@ class CReflexBlastDuration extends CR4HudModuleBuffs
 	{
 		var duration : float;
 		
-		if ( GetWitcherPlayer().isReflexBlastXmlAvailable )
-			duration = StringToFloat(theGame.GetInGameConfigWrapper().GetVarValue('ReflexBlast', 'sloMoDuration'));
-		else
-		{
-			// If changing slo-mo duration (secs), remember to change on aardEntity.ws' sloMoDuration as well
-			duration = 3;
-		}
+		duration = StringToFloat(theGame.GetInGameConfigWrapper().GetVarValue('ReflexBlast', 'sloMoDuration'));
 
 		return duration;
 	}
