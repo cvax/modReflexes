@@ -1,5 +1,5 @@
-v1.xx-dev
-- Improved checkreflexblast to be capable of forcing a fix attempt via console
+v1.50
+- Reimplemented to utilize modCustomSkillsFramework
 
 v1.40.1
 - Improved merge compatiblity with modKNGULM
