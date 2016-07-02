@@ -11,7 +11,7 @@ Become the ultimate speeded Witcher. Like the [Afro Samurai](https://github.com/
 
 - On-the-fly, in-game customizations to tweak skill level to your own liking
 - Enable / disable toggles to turn features you like on / off
-- Utilizes the [Custom Skills Framework](http://www.nexusmods.com/witcher3/mods/1758/?)
+- Utilizes the Custom Skills Framework ([NexusMods](http://www.nexusmods.com/witcher3/mods/1758/?) / [GitHub](https://github.com/cvax/modCustomSkillsFramework))
 
 ##### Reflex Blast
 
