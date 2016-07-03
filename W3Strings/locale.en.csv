@@ -58,3 +58,8 @@
 2110956037|        |reflex_blast_uninstall|Reflex Blast uninstalled. Any skill points used on it has been refunded. Please save, quit Witcher, then delete the mod before continuing.
 2110956038|        |reflex_blast_noaction|Reflex Blast DEBUG: No Action Taken
 2110956039|        |reflex_blast_repair|Reflex Blast repaired. Find it in the Character menu under the Aard Sign skills.
+;
+; DLC
+;
+2110956050|        |dlcreflexes|Reflexes
+2110956051|        |dlcreflexes_desc|Aard Skill - Reflex Blast

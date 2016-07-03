@@ -1,3 +1,6 @@
+v1.50.1
+- Improved merge compatibility with other custom skills by creating DLC
+
 v1.50
 - Reimplemented to utilize modCustomSkillsFramework
 
