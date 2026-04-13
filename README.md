@@ -34,15 +34,41 @@ Become the ultimate speeded Witcher. Like the [Afro Samurai](https://github.com/
 modReflexes automatically adds the Reflex Blast skill to your skill tree as you load a save file. Witcher Reflex doesn't need to install anything to your skill tree and will be ready to go right away.  
 
 1. Requires ```modCustomSkillsFramework```. Download [here](http://www.nexusmods.com/witcher3/mods/1758/?) and copy to ```<Witcher3 install>\Mods```
-2. Copy ```modReflexes``` to ```<Witcher3 Install>\Mods```
-3. Copy ```modReflexes\bin``` to ```<Witcher3 Install>```
-4. Load any save file  
-5. Open your ```Character``` page  
-6. Add skill points to ```Reflex Blast```  
-7. Activate the skill (requires ```Aard Sweep``` activated as well)  
-8. When in combat, by default, you can expend 2 adrenaline points
+2. Extract ```modReflexes v1.60.7z``` to ```<Witcher3 Install>```
+    a. `modReflexes` will be in `Witcher3 Install>\Mods`
+    b. `dlcreflexes` wil be in `<Witcher3 Install>\DLC`
+    c. `reflexes.xml` will be in `<Witcher 3 Install>\bin\config\r4game\user_config_matrix\pc`
+3. Add the Mod to the ingame menus, add `reflexes.xml;` as a new line to the end of the following:
+    a. `<Witcher 3 Install>\bin\config\r4game\user_config_matrix\pc\dx11filelist.txt`
+    b. `<Witcher 3 Install>\bin\config\r4game\user_config_matrix\pc\dx12filelist.txt`
+4. Use Script Merger to merge with `modCustomSkillsFramework` and others
+5. BACKUP ALL OF YOUR GAME SAVES from `<Documents>\The Witcher 3\gamesaves`
+6. Launch Witcher 3
+7. In the ingame menu, navigate to `Mods > Reflexes > Reflex Blast` and set it to be Enabled
+8. Load any save file, the skill will be installed and available in your skill tree now
+9. Open your ```Character``` page  
+10. Add skill points to ```Reflex Blast```  
+11. Activate the skill (requires the ```Aard Sweep``` to be activated as well)  
+12. When in combat, by default, you can expend 2 adrenaline points to use in Aard alternate cast
 
+## Uninstall
+1. Launch Witcher 3, but don't load into any save yet.
+2. From ingame menu, `Mods > Reflexes > Reflex Blast`, set `---=== ENABLE ===---` to `Uninstall`
+3. Load your save, the `Reflex Blast` skill will be removed from your skill tree and any skill points used in it will be refunded
+4. Save your game to store the restored skill tree
+5. Shutdown Witcher 3
+6. Delete the mod files:
+    a. `<Witcher3 Install>\Mods\modReflexes`
+    b. `<Witcher3 Install>\DLC\dlcreflexes`
+    c. `<Witcher3 Install>\bin\config\r4game\user_config_matrix\pc\reflexes.xml`
+    d. Remove `reflexes.xml;` line from `dx11filelist.txt` and `dx12filelist.txt` located at `<Witcher3 Install>\bin\config\r4game\user_config_matrix\pc
+7. Use Script Merger to clean it from any previously merged scripts
 
+PRO TIP: If you have trouble with a save that previously had the skill installed, but you no longer have Reflexes installed, you can fix this by have modCustomSkillFramework repair the skill tree.
+1. Open debug console
+2. Type `fixcustomskills`
+3. Skill tree restored in Character menu without Reflex Blast
+4. Save over your previous save
 
 
 ## Roadmap
